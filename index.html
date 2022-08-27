@@ -13,7 +13,7 @@
         <h1>Discount Calculator</h1>
         <form action="#">
             <div class="input-item">
-                <label for="amount"> Enter bill amount: </label>
+                <label for="amount"> Enter your bill: </label>
                 <input type="text" id="amount">
             </div>
 
@@ -33,17 +33,17 @@
             </div>
 
             <div class="input-item">
-                <label for="discount-amount"> Discount amount: </label>
-                <input type="text" id="discount-amount" disabled>
+                <label for="discount-amount"> Discounted amount: </label>
+                <input type="text" id="discount-amount" enabled>
             </div>
 
             <div class="input-item">
-                <label for="pay" aria-disabled="true"> Final Pay:</label>
-                <input type="text" id="pay" disabled>
+                <label for="pay" aria-disabled="true"> Payable amount:</label>
+                <input type="text" id="pay" enabled>
             </div> 
 
             <button type="submit" class="calculate">Calculate</button>
-            <input type="reset" value="Reset" class="reset">
+            <button type="reset" class="reset">Reset</button>
         </form>
     </div>
 
