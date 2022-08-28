@@ -9,5 +9,9 @@ calculateBtn.addEventListener('click' , (e) => {
 
 
     discountAmt.value = bill * percentage/100;
-    finalPay.value = bill - discountAmt;
-})
+    finalPay.value = bill - discountAmt.value;
+});
+
+resetBtn.addEventListener('click' , () => {
+    window.location.reload();
+});
